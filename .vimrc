@@ -1,8 +1,19 @@
+" Set up Vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'speshak/vim-cfn'
+call vundle#end()
+
 call pathogen#infect()
 "set background=dark
 syntax on
 
 set nocompatible
+set shell=/bin/bash
 filetype indent plugin on
 set expandtab
 set smarttab
