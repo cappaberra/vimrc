@@ -31,3 +31,6 @@
 [submodule "colors/lucius"]
 	path = colors/lucius
 	url =  https://github.com/jonathanfilip/vim-lucius
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
